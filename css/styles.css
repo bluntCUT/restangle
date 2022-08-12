@@ -39,7 +39,7 @@ body {
 /**-----Оболочка wrapper------*/
 .wrapper {
     min-height: 100%;
-    overflow: hiddens;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
 }
@@ -259,14 +259,15 @@ body {
 }
 ._container {
 }
-.project__header {
-}
 ._header {
-    color: #404149;
+    color: #000;
     font-size: 36px;
     line-height: calc(36 / 53 * 100%);
     text-transform: uppercase;
     text-align: center;
+}
+.project__header {
+    color: #404149;    
 }
 .project__body {
     display: flex;
@@ -531,5 +532,54 @@ body {
     letter-spacing: 0.02em;
 }
 .item-comment__author_comp {
+    color: #F7654A;
+}
+
+
+.page__contancts {
+}
+.contancts {
+    padding: 100px 0px 150px 0px;
+}
+.contacts__container {
+}
+._container {
+}
+.contacts__header {
+}
+._header {
+}
+.contacts__body {
+    padding: 60px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+}
+.contacts__column:not(:last-child) {
+    margin: 0px 30px 0px 0px;
+}
+.contacts__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 255px;
+    font-size: 24px;
+    line-height: calc(36 / 24 * 100%);
+    text-align: center;
+}
+.item-contact {
+}
+.contacts__item_email {
+    padding-top: 10px;
+}
+.item-contact__name {
+    padding: 15px 0px 0px 0px;
+    color: #999999;
+}
+.item-contact__text {
+    padding: 20px 0px 0px 0px;
+}
+.item-contact__text_email {
     color: #F7654A;
 }
